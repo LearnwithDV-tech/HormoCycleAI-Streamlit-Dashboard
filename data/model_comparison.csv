@@ -1,0 +1,8 @@
+model,model_family,task,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,average_precision
+Phase Persistence Baseline,Conventional temporal baseline,14-day menstrual onset,0.857732,0.859756,0.775974,1.0,0.873857,0.959052,0.929733
+Multimodal Fusion,Multimodal deep learning,14-day menstrual onset,0.804124,0.804767,0.774809,0.849372,0.810379,0.874579,0.849401
+Personalized Multimodal Fusion,Personalized multimodal deep learning,14-day menstrual onset,0.773196,0.7733,0.7633,0.7824,0.7727,0.8594,0.8505
+CNN-LSTM,Unimodal temporal deep learning,14-day menstrual onset,0.742268,0.743801,0.6952,0.8494,0.7646,0.8227,0.8058
+LSTM,Unimodal temporal deep learning,14-day menstrual onset,0.742268,0.7403,0.8239,0.6067,0.6988,0.8243,0.8259
+Multi-Task Multimodal,Multi-task multimodal deep learning,14-day menstrual onset,0.643299,0.638313,0.945946,0.292887,0.447284,0.82869,0.834757
+Transformer,Unimodal temporal deep learning,14-day menstrual onset,0.531959,0.527129,0.575,0.192469,0.288401,0.530224,0.549948

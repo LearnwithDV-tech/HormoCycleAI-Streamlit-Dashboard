@@ -1,0 +1,2 @@
+xai_context_type,top_modalities,top_features,interpretation
+Global model reliance,hormonal_menstrual; sleep; cardiovascular_hrv,hormonal_menstrual__phase; hormonal_menstrual__cramps; hormonal_menstrual__headaches; hormonal_menstrual__moodswing; hormonal_menstrual__flow_color; hormonal_menstrual__indigestion; hormonal_menstrual__bloating; hormonal_menstrual__sorebreasts; stress__stress; hormonal_menstrual__flow_volume,"XAI identifies variables and modalities that influence model predictions. These are model-attribution findings, not causal or clinical determinants."
