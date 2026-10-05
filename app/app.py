@@ -1,3 +1,4 @@
+from dashboard_config import DASHBOARD_DATASET, XAI_CONTEXT, MODEL_COMPARISON
 
 import os
 import sys
@@ -9,24 +10,22 @@ import streamlit as st
 # PATHS
 # ============================================================
 
-BASE = "/content/drive/MyDrive/HormoCycleAI_New"
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DATA_DIR = os.path.join(BASE, "data")
 
 DASHBOARD_DATASET = os.path.join(
-    BASE,
-    "18_ARHI_Dashboard",
-    "step18_6_final_publication_dashboard_dataset.csv"
+    DATA_DIR,
+    "dashboard_dataset.csv"
 )
 
 XAI_CONTEXT = os.path.join(
-    BASE,
-    "18_ARHI_Dashboard",
-    "step18_5_corrected_xai_dashboard_context.csv"
+    DATA_DIR,
+    "xai_context.csv"
 )
 
 MODEL_COMPARISON = os.path.join(
-    BASE,
-    "16_Evaluation_Comparison",
-    "step16_1_final_model_comparison.csv"
+    DATA_DIR,
+    "model_comparison.csv"
 )
 
 
