@@ -4,22 +4,26 @@ HormoCycleAI — Public Streamlit Dashboard Configuration
 
 import os
 
+# Repository root
 BASE = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..")
 )
 
 DATA_DIR = os.path.join(BASE, "data")
 
+# Public synthetic dashboard dataset
 DASHBOARD_DATASET = os.path.join(
     DATA_DIR,
     "dashboard_dataset.csv"
 )
 
+# Global XAI context
 XAI_CONTEXT = os.path.join(
     DATA_DIR,
     "xai_context.csv"
 )
 
+# Validated aggregate model comparison
 MODEL_COMPARISON = os.path.join(
     DATA_DIR,
     "model_comparison.csv"
